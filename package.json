@@ -1,0 +1,29 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larisamatei396/Space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larisamatei396/Space/issues"
+  },
+  "homepage": "https://github.com/larisamatei396/Space#readme",
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "prettier --check '**/*.js'",
+    "format": "prettier --write '**/*.js'"
+  }
+}
